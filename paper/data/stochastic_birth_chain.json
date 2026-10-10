@@ -1,0 +1,35 @@
+{
+  "definition": "T >= sum_{k<m} E_k/g_k, g_k=(kappa/4)(W0+13k)^2, E_k iid Exp(1); V=1 L, C0=1 mol/L, b3=101/100",
+  "cases": {
+    "rectangle_corner": {
+      "W0_counts": 4.182042194444444e+16,
+      "W1_counts": 8.364084388888888e+16,
+      "m_reverse_events": 3216955534188034,
+      "kappa_per_s": 2.9955855228437665e-45,
+      "mean_lower_bound_s": 1.2280513023610053e+27,
+      "relative_sd": 1.904367958853457e-08,
+      "deterministic_clock_s": 1.2280513023610053e+27,
+      "localised_poisson_scale_m_over_Lambda_s": 1.5350641279512566e+26
+    },
+    "reference_gamma1_original": {
+      "W0_counts": 301.107038,
+      "W1_counts": 602.214076,
+      "m_reverse_events": 24,
+      "kappa_per_s": 1.677144457845585e-60,
+      "mean_lower_bound_s": 3.202056249222014e+56,
+      "relative_sd": 0.22182618123408238,
+      "deterministic_clock_s": 3.0464584920030465e+56,
+      "localised_poisson_scale_m_over_Lambda_s": 3.945835407145775e+55
+    },
+    "reference_gamma1_improved": {
+      "W0_counts": 10756.281364311842,
+      "W1_counts": 21512.562728623685,
+      "m_reverse_events": 828,
+      "kappa_per_s": 7.704695274803927e-58,
+      "mean_lower_bound_s": 1.8587388938326443e+52,
+      "relative_sd": 0.037542197919206544,
+      "deterministic_clock_s": 1.856389154639744e+52,
+      "localised_poisson_scale_m_over_Lambda_s": 2.32215160887768e+51
+    }
+  }
+}

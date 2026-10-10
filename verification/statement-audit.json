@@ -1,0 +1,423 @@
+{
+  "status": "PASS",
+  "ordinary_source_bindings": [
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "ReactionNetwork",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "Reaction",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "HasReaction",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "WeaklyReversible",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "monomial",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "massAction",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "PositiveState",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "IsGlobalForwardSolution",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "IsForwardSolutionOn",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "declaration": "dot",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ClassInvariant.lean",
+      "declaration": "Annihilator",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "5f9619db173cdebad5cc5bfe490e2d61f4d4d779be22c1368c65ba0d2edee255"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ClassInvariant.lean",
+      "declaration": "SameClass",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "5f9619db173cdebad5cc5bfe490e2d61f4d4d779be22c1368c65ba0d2edee255"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/RateBounds.lean",
+      "declaration": "rate",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "fa6d85e9b185cef5450f0000a9b2e188ed3f6b967a3c9994690f294857607143"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "Rates",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "j1",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "j2",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "j3",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "j4",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "dx",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "dy",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "dz",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "declaration": "C",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "57fcb07a302291a8b2ee12a136a03981dd63d75a3b3251b1240a198a0ec87748"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/SourceBounds.lean",
+      "declaration": "Parameters",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "1232adb27effbbba9d502190750423bf97fac8a1adafa308f26eea67f99d9ca7"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CorridorDynamics.lean",
+      "declaration": "Parameters.p",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "a835c15d1915749fcab1bcd1a9e4e437a6316121d6d61ee1a98487cd5cae11ed"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CorridorDynamics.lean",
+      "declaration": "Outer",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "a835c15d1915749fcab1bcd1a9e4e437a6316121d6d61ee1a98487cd5cae11ed"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CorridorDynamics.lean",
+      "declaration": "Inner",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "a835c15d1915749fcab1bcd1a9e4e437a6316121d6d61ee1a98487cd5cae11ed"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/PhysicalConnection.lean",
+      "declaration": "LiteralTrajectory",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "55583efab2db0786503ea042673fa098e045c16fbfcd40cba3a94c3996b1f7f3"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/PhysicalConnection.lean",
+      "declaration": "Q",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "55583efab2db0786503ea042673fa098e045c16fbfcd40cba3a94c3996b1f7f3"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/PhysicalConnection.lean",
+      "declaration": "A",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "55583efab2db0786503ea042673fa098e045c16fbfcd40cba3a94c3996b1f7f3"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/PhysicalConnection.lean",
+      "declaration": "B",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "55583efab2db0786503ea042673fa098e045c16fbfcd40cba3a94c3996b1f7f3"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "declaration": "stateQ",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d4a03bd004f0eadd86eb37ac734ae2cda8fd1312380e3079f51f76673224ef92"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "declaration": "stateA",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d4a03bd004f0eadd86eb37ac734ae2cda8fd1312380e3079f51f76673224ef92"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "declaration": "stateB",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d4a03bd004f0eadd86eb37ac734ae2cda8fd1312380e3079f51f76673224ef92"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "declaration": "Prepared",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d4a03bd004f0eadd86eb37ac734ae2cda8fd1312380e3079f51f76673224ef92"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "declaration": "Starts",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d4a03bd004f0eadd86eb37ac734ae2cda8fd1312380e3079f51f76673224ef92"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "declaration": "witnessState",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "d4a03bd004f0eadd86eb37ac734ae2cda8fd1312380e3079f51f76673224ef92"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/RecoveryCorollaries.lean",
+      "declaration": "sx",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "ddadb9dc6092870f7d9ae9e78a6f69ce40709bc975fa0ae99d5f7aecf50f037f"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/RecoveryCorollaries.lean",
+      "declaration": "sy",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "ddadb9dc6092870f7d9ae9e78a6f69ce40709bc975fa0ae99d5f7aecf50f037f"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/RecoveryCorollaries.lean",
+      "declaration": "sz",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "ddadb9dc6092870f7d9ae9e78a6f69ce40709bc975fa0ae99d5f7aecf50f037f"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "hExponent",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "uExponent",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "xExponent",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "yExponent",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "zExponent",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "timeExponent",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "cutoff",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "improvedCutoff",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ReactionExtent.lean",
+      "declaration": "inventory",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "243eac0fc51b42d131dc4978962f5b94aee3b67f974eb1d3cb5efd165b717734"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ReactionExtent.lean",
+      "declaration": "current3",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "243eac0fc51b42d131dc4978962f5b94aee3b67f974eb1d3cb5efd165b717734"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ReactionExtent.lean",
+      "declaration": "reverse3",
+      "binding": "literal ordinary definition",
+      "original_source_sha256": "243eac0fc51b42d131dc4978962f5b94aee3b67f974eb1d3cb5efd165b717734"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/GeneralTheorem.lean",
+      "declaration": "general_quantitative_root",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "d1889659ab7f50cc6febf165ee3d9981a5415ac1d73da950bfac103f8d206b1e"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/SharpRecovery.lean",
+      "declaration": "prepared_recovery_sharp",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "3486a778ba62d37f6df1193805e9ce9e9b4aeec03248f28a8d6c93cec6535e06"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/SharpRecovery.lean",
+      "declaration": "witness_sharp",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "3486a778ba62d37f6df1193805e9ce9e9b4aeec03248f28a8d6c93cec6535e06"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/GlobalInventory.lean",
+      "declaration": "global_inventory_clocks",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "250474e8db0dd22173046a8a955cf4bce3d16a129dc4b94a7a20bf8af27f3669"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/SharpRecovery.lean",
+      "declaration": "family_root_sharp",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "3486a778ba62d37f6df1193805e9ce9e9b4aeec03248f28a8d6c93cec6535e06"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "identities",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "original_cutoff_bounds",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "declaration": "cutoff_decimal",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "18656b60b46c9adae2f169450687a5540e023f0b7372f73fb7f5816b31fa14e6"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/CommonClock.lean",
+      "declaration": "rescale_iff",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "8338b0a54415ffb8a6459dfea7b797c773ee188795f4706cb388f07ec6f6d6c0"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/RecoveryCorollaries.lean",
+      "declaration": "scale_tradeoff",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "ddadb9dc6092870f7d9ae9e78a6f69ce40709bc975fa0ae99d5f7aecf50f037f"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/ReactionExtent.lean",
+      "declaration": "restoration_extent",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "243eac0fc51b42d131dc4978962f5b94aee3b67f974eb1d3cb5efd165b717734"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/SharpRecovery.lean",
+      "declaration": "inventory_bottleneck",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "3486a778ba62d37f6df1193805e9ce9e9b4aeec03248f28a8d6c93cec6535e06"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/SharpRecovery.lean",
+      "declaration": "inventory_unreachable",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "3486a778ba62d37f6df1193805e9ce9e9b4aeec03248f28a8d6c93cec6535e06"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/GlobalInventory.lean",
+      "declaration": "inventory_bottleneck_scaling",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "250474e8db0dd22173046a8a955cf4bce3d16a129dc4b94a7a20bf8af27f3669"
+    },
+    {
+      "source": "proofs/ReverseRateLimits/RecoveryCorollaries.lean",
+      "declaration": "no_linear_inventory",
+      "binding": "exact component theorem header",
+      "original_source_sha256": "ddadb9dc6092870f7d9ae9e78a6f69ce40709bc975fa0ae99d5f7aecf50f037f"
+    }
+  ],
+  "new_preparation_headers_matched": 3,
+  "selected_declarations": [
+    "ReverseRateLimits.general_quantitative_root",
+    "ReverseRateLimits.SharpRecovery.prepared_recovery_sharp",
+    "ReverseRateLimits.SharpRecovery.witness_sharp",
+    "ReverseRateLimits.GlobalInventory.global_inventory_clocks",
+    "ReverseRateLimits.SharpRecovery.family_root_sharp",
+    "ReverseRateLimits.ExponentFamily.identities",
+    "ReverseRateLimits.ExponentFamily.original_cutoff_bounds",
+    "ReverseRateLimits.ExponentFamily.cutoff_decimal",
+    "ReverseRateLimits.CommonClock.rescale_iff",
+    "ReverseRateLimits.RecoveryCorollaries.scale_tradeoff",
+    "ReverseRateLimits.ReactionExtent.restoration_extent",
+    "ReverseRateLimits.SharpRecovery.inventory_bottleneck",
+    "ReverseRateLimits.SharpRecovery.inventory_unreachable",
+    "ReverseRateLimits.GlobalInventory.inventory_bottleneck_scaling",
+    "ReverseRateLimits.RecoveryCorollaries.no_linear_inventory",
+    "QuantitativeRegistry.family_parameters",
+    "QuantitativeRegistry.admitted_parameters",
+    "QuantitativeRegistry.state_capacity_clock"
+  ],
+  "challenge_sha256": "55da0e191a3352a207fb7290a572b97a2eeffc495bd8a10964e9d2ed7962d3f2",
+  "solution_sha256": "83b5925264f0164f3c8ad8d1e054f9ce32200acf6c3d31c8ae1895fa09323d6f",
+  "lean_executed": false,
+  "scope": "Source-text fidelity and independent imports; Comparator acceptance is a separate required gate.",
+  "independent_comparison": "PASS on all selected declarations with all six configured kernels",
+  "instance_alignment": "The independent ordinary definitions and abstract clocks select the same standard Mathlib scalar-topology instance as the Solution; vector-valued derivatives use the matching pointwise continuity instance. Mathematical definition bodies and theorem headers are unchanged.",
+  "auxiliary_cache_boundaries": "Compiler metadata resets reproduce separate source-module definition groups; no mathematical assumptions are introduced."
+}

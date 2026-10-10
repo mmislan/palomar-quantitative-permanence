@@ -1,0 +1,180 @@
+{
+  "constants": {
+    "deadline_constant": "31/10",
+    "witness_constant": "400/1313",
+    "witness_constant_float": 0.30464584920030463,
+    "ratio_upper_over_lower": "40703/4000",
+    "ratio_float": 10.17575,
+    "previous_ratio": 196.0,
+    "sequential_numerator_at_h_1_600": 3.0769230771699907,
+    "sequential_numerator_exact": "559872000044928000013/181958400000000000000"
+  },
+  "best_corner": {
+    "gamma_star": 2.54316828511268,
+    "epsilon_max_over_rectangle": 6.944444444444444e-09,
+    "statement": "p<=1/12000 forces epsilon=p^2<=1/144000000; the exponent family reaches this corner at gamma_star"
+  },
+  "cutoffs": {
+    "gamma1_original_log10": -36.0,
+    "gamma1_improved_log10": -33.33781500460372,
+    "gamma2_improved_log10": -5.204119982655925
+  },
+  "cases": [
+    {
+      "label": "rectangle_corner",
+      "h": "1/600",
+      "u": "1/20",
+      "p": "1/12000",
+      "epsilon": 6.944444444444444e-09,
+      "pair3_reverse_rate": 1.786122542295382e-21,
+      "one_over_p2h7": 4.0310784e+27,
+      "one_over_p2h7_exact": "4031078400000000000000000000",
+      "witness_lower_seconds": 1.2280513023610053e+27,
+      "deadline_upper_seconds": 1.249634304e+28,
+      "previous_witness_lower_seconds": 1.4396708571428572e+26,
+      "previous_deadline_upper_seconds": 2.82175488e+28,
+      "bounds_mol_per_litre": {
+        "x": [
+          1.808449074074074e-14,
+          1.9290123456790123e-12
+        ],
+        "y": [
+          1.4467592592592592e-11,
+          6.944444444444445e-10
+        ],
+        "z": [
+          1.736111111111111e-08,
+          1.3888888888888888e-07
+        ]
+      },
+      "molecule_counts_1L": {
+        "x": [
+          10890734881.36574,
+          1161678387345.679
+        ],
+        "y": [
+          8712587905092.593,
+          418204219444444.44
+        ],
+        "z": [
+          1.0455105486111112e+16,
+          8.36408438888889e+16
+        ]
+      },
+      "reverse_rate_constants": {
+        "pairs_1_2_L_per_mol_s": 6.944444444444444e-09,
+        "pair_3_L_per_mol_s": 1.786122542295382e-21,
+        "pair_4_per_s": 6.944444444444444e-09
+      },
+      "log_cycle_ratio_1_over_4eps": 17.399029496420383,
+      "witness_inventory_rise_mol_per_litre": 6.944444444444444e-08,
+      "witness_min_reverse_pair3_events_1L": 3216955534188035
+    },
+    {
+      "label": "reference_gamma1_original",
+      "h": "1/1000",
+      "u": "1/1000000000000000",
+      "p": "1/1000000000000000000",
+      "epsilon": 1e-36,
+      "pair3_reverse_rate": 1e-36,
+      "one_over_p2h7": 1e+57,
+      "one_over_p2h7_exact": "1000000000000000000000000000000000000000000000000000000000",
+      "witness_lower_seconds": 3.0464584920030465e+56,
+      "deadline_upper_seconds": 3.1e+57,
+      "previous_witness_lower_seconds": 3.5714285714285713e+55,
+      "previous_deadline_upper_seconds": 7e+57,
+      "bounds_mol_per_litre": {
+        "x": [
+          4.6875e-29,
+          5e-27
+        ],
+        "y": [
+          6.25e-26,
+          3e-24
+        ],
+        "z": [
+          1.25e-22,
+          1e-21
+        ]
+      },
+      "molecule_counts_1L": {
+        "x": [
+          2.82287848125e-05,
+          0.00301107038
+        ],
+        "y": [
+          0.03763837975,
+          1.806642228
+        ],
+        "z": [
+          75.2767595,
+          602.214076
+        ]
+      },
+      "reverse_rate_constants": {
+        "pairs_1_2_L_per_mol_s": 1e-36,
+        "pair_3_L_per_mol_s": 1e-36,
+        "pair_4_per_s": 1e-36
+      },
+      "log_cycle_ratio_1_over_4eps": 81.50676898666575,
+      "witness_inventory_rise_mol_per_litre": 5e-22,
+      "witness_min_reverse_pair3_events_1L": 24
+    },
+    {
+      "label": "reference_gamma1_improved",
+      "h": "1/600",
+      "u": "1/77760000000000",
+      "p": "1/46656000000000000",
+      "epsilon": 4.593936579977834e-34,
+      "pair3_reverse_rate": 4.593936579977834e-34,
+      "one_over_p2h7": 6.09359740010496e+52,
+      "one_over_p2h7_exact": "60935974001049600000000000000000000000000000000000000",
+      "witness_lower_seconds": 1.856389154639744e+52,
+      "deadline_upper_seconds": 1.8890151940325376e+53,
+      "previous_witness_lower_seconds": 2.1762847857517714e+51,
+      "previous_deadline_upper_seconds": 4.265518180073472e+53,
+      "bounds_mol_per_litre": {
+        "x": [
+          4.651360787227557e-27,
+          4.961451506376061e-25
+        ],
+        "y": [
+          3.721088629782045e-24,
+          1.7861225422953819e-22
+        ],
+        "z": [
+          4.465306355738454e-21,
+          3.5722450845907633e-20
+        ]
+      },
+      "molecule_counts_1L": {
+        "x": [
+          0.0028011149386228756,
+          0.29878559345310673
+        ],
+        "y": [
+          2.2408919508983005,
+          107.56281364311843
+        ],
+        "z": [
+          2689.0703410779606,
+          21512.562728623685
+        ]
+      },
+      "reverse_rate_constants": {
+        "pairs_1_2_L_per_mol_s": 4.593936579977834e-34,
+        "pair_3_L_per_mol_s": 4.593936579977834e-34,
+        "pair_4_per_s": 4.593936579977834e-34
+      },
+      "log_cycle_ratio_1_over_4eps": 75.37686150147387,
+      "witness_inventory_rise_mol_per_litre": 1.7861225422953817e-20,
+      "witness_min_reverse_pair3_events_1L": 828
+    }
+  ],
+  "units": {
+    "C0_mol_per_litre": 1,
+    "tau0_seconds": 1,
+    "V_litres": 1,
+    "N_A": 602214076000000000000000
+  }
+}

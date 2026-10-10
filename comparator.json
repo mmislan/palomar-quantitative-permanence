@@ -1,0 +1,29 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "ReverseRateLimits.general_quantitative_root",
+    "ReverseRateLimits.SharpRecovery.prepared_recovery_sharp",
+    "ReverseRateLimits.SharpRecovery.witness_sharp",
+    "ReverseRateLimits.GlobalInventory.global_inventory_clocks",
+    "ReverseRateLimits.SharpRecovery.family_root_sharp",
+    "ReverseRateLimits.ExponentFamily.identities",
+    "ReverseRateLimits.ExponentFamily.original_cutoff_bounds",
+    "ReverseRateLimits.ExponentFamily.cutoff_decimal",
+    "ReverseRateLimits.CommonClock.rescale_iff",
+    "ReverseRateLimits.RecoveryCorollaries.scale_tradeoff",
+    "ReverseRateLimits.ReactionExtent.restoration_extent",
+    "ReverseRateLimits.SharpRecovery.inventory_bottleneck",
+    "ReverseRateLimits.SharpRecovery.inventory_unreachable",
+    "ReverseRateLimits.GlobalInventory.inventory_bottleneck_scaling",
+    "ReverseRateLimits.RecoveryCorollaries.no_linear_inventory",
+    "QuantitativeRegistry.family_parameters",
+    "QuantitativeRegistry.admitted_parameters",
+    "QuantitativeRegistry.state_capacity_clock"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

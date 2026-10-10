@@ -1,0 +1,199 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "Quantitative permanence and recovery with vanishing reverse rates",
+    "description": "Quantitative permanence and recovery bounds are established for mass-action systems with vanishing reverse rates. For a finite weakly reversible network with rates proportional to powers of epsilon, eventual concentration bounds depend on the spread of the rate exponents, with geometric constants chosen before the individual rates. For an explicit three-species network, a prepared region admits global positive solutions with three distinct concentration scales. Every prepared solution reaches and remains in a smaller target by time (31/10)/(p^2 h^7), while an explicit prepared solution cannot enter before 400/(1313 p^2 h^7). Inventory inequalities give additional necessary restoration and depletion times from arbitrary positive initial states. A continuous reverse-exponent family retains arbitrary admitted prefactors and yields matching worst-case prepared recovery orders, together with exact common-clock transport, preparation identities and cumulative reverse-reaction bounds. Abstract constant-capacity and open-range state-dependent inventory comparisons are included without assuming monotone inventories.",
+    "authors": [
+      "Michael Mislan"
+    ],
+    "responsible_maintainers": [
+      "Michael Mislan"
+    ],
+    "license": "Apache-2.0"
+  },
+  "classification": {
+    "arxiv": [
+      "math.DS",
+      "q-bio.MN"
+    ],
+    "msc2020": [
+      "37N25",
+      "92C42"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Quantitative permanence and recovery with vanishing reverse rates",
+      "type": "paper",
+      "relationship": "formalizes",
+      "location": "paper/main.pdf",
+      "note": "Companion manuscript; blank author and affiliation fields are preserved. The selected claims are identified in CLAIM_MAP.md."
+    },
+    {
+      "title": "Uniform permanence in weakly reversible mass-action systems",
+      "type": "paper",
+      "relationship": "adapts",
+      "location": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Uniform-Permanence-in-Weakly-Reversible-Mass-Action-Systems-October-5-2026",
+      "note": "The quantitative general theorem extends the attributed affine permanence construction; qualitative priority remains with the source."
+    },
+    {
+      "title": "Boundedness and persistence of weakly reversible mass-action systems",
+      "type": "paper",
+      "relationship": "adapts",
+      "location": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/149.md",
+      "note": "Supplies global forward existence for weakly reversible natural-complex networks, used in the general and concrete deterministic proofs."
+    }
+  ],
+  "related_formalizations": [
+    {
+      "id": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/MassAction",
+      "relationship": "builds-on",
+      "note": "The complete selected upstream proof closure is included with relocated imports and recorded compatibility changes."
+    }
+  ],
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "framework": "Codex",
+        "models": [],
+        "tool_setup": "AI-assisted mathematical analysis, proof drafting, independent statement preparation, target migration and manuscript editing."
+      }
+    ],
+    "notes": "Historical serving identifiers are not inferred. Current preparation uses a GPT-6-family Codex agent; the exact serving identifier is unavailable. AI systems are not human authors or maintainers."
+  },
+  "review": {
+    "status": "agent-reviewed",
+    "notes": "All eighteen selected declarations pass strict Lean 4.35.0-rc2 compilation and standard-axiom probes. The independent Mathlib-only Challenge passes Comparator and Lean paranoid, lean4lean, nanoda, con-leche, con-ron and Lean default. The offline pinned Lake environment is checked. Native 4.30.0 evidence is labelled separately. Agent review checks the literal model, quantifiers and manuscript alignment."
+  },
+  "alignment": {
+    "statements": [
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.general_quantitative_root",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.SharpRecovery.prepared_recovery_sharp",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.SharpRecovery.witness_sharp",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.GlobalInventory.global_inventory_clocks",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.SharpRecovery.family_root_sharp",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.ExponentFamily.identities",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.ExponentFamily.original_cutoff_bounds",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.ExponentFamily.cutoff_decimal",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.CommonClock.rescale_iff",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.RecoveryCorollaries.scale_tradeoff",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.ReactionExtent.restoration_extent",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.SharpRecovery.inventory_bottleneck",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.SharpRecovery.inventory_unreachable",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.GlobalInventory.inventory_bottleneck_scaling",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "ReverseRateLimits.RecoveryCorollaries.no_linear_inventory",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "QuantitativeRegistry.family_parameters",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "QuantitativeRegistry.admitted_parameters",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript",
+        "lean": "QuantitativeRegistry.state_capacity_clock",
+        "module": "Challenge",
+        "status": "verified",
+        "note": "Strict target check and independent statement comparison with all six configured kernels; exact scope in CLAIM_MAP.md and evidence in verification/local-check.json."
+      }
+    ]
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "license": "Apache-2.0",
+  "selected_imported_files": [
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/FixedMinimum.lean",
+      "original_sha256": "4d446bbd1831f1c1c8149fead933db3aa3b29d0343f62d711a3060dc09939e77",
+      "native_source": "proofs/ReverseRateLimits/Upstream/FixedMinimum.lean",
+      "native_sha256": "4fc4ca2504c5f26b76fc5fcb959fd7a6e57d50cfb4bf393b839a3eb80f84391f",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/FixedMinimum.lean",
+      "candidate_sha256": "8d92c474bd77b81ed6936f803a7206d3e7296d583285368666a350ef2aa1bdf8"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/CoordinateEmbedding.lean",
+      "original_sha256": "570cc3932fb556079a60e9476ff71ea2e6887da53a72d4e0436fd334ec5decaa",
+      "native_source": "proofs/ReverseRateLimits/Upstream/CoordinateEmbedding.lean",
+      "native_sha256": "3fd3ea4361e58b22bf29b86347751ab39ecc8f69d42d87d1fa546cbd53cacf31",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/CoordinateEmbedding.lean",
+      "candidate_sha256": "e7b6209de9878151b37e8820f45129f7de82520f9aeef00efa6a5f4255bfa791"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/TypeFamily.lean",
+      "original_sha256": "e65e0832eae0ab1428533a242b077527fcfe2a8b1dc59c7f489045178fec2f2b",
+      "native_source": "proofs/ReverseRateLimits/Upstream/TypeFamily.lean",
+      "native_sha256": "75adcb59bedb7ec35152ab301b9ea8fe16eb5dd0352baf865e0ce93b68c7dba0",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/TypeFamily.lean",
+      "candidate_sha256": "0b2c28acb197ab719eabb4754cee32d4dbcc6da5d5bdb18c3f46982ee0ec4954"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineCertificates.lean",
+      "original_sha256": "ba35bbd4f7463f7e9af6c4303cd6aa0cbe8d5e8504163045cc9e803c7c5e5288",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineCertificates.lean",
+      "native_sha256": "a267b89c9272024954f5e4788e9492317bc5e8765b4d3eb4678a5f9d4b1f4e22",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineCertificates.lean",
+      "candidate_sha256": "73af75c7da7839fc41a4c61b7313648a7549296ceb2439de7c3605d602caa819"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/LayerSequence.lean",
+      "original_sha256": "87cea1de8b315d353d5568ac37c13669c70c16996af670f05c7ab63c5789e28f",
+      "native_source": "proofs/ReverseRateLimits/Upstream/LayerSequence.lean",
+      "native_sha256": "c4b4150ca23db50f94fce9f78227f80ce3782b56c97ca700119f1510af4ae937",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/LayerSequence.lean",
+      "candidate_sha256": "2b049e6128ef35fb811fa682b0719a7490b590dae0932634ee67a1a0b1e4e15a"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/FixedMinimumEstimates.lean",
+      "original_sha256": "b5b7e6a144409b174e182a63a0bfa58c424cc0dde7eb73767d282036d52fce67",
+      "native_source": "proofs/ReverseRateLimits/Upstream/FixedMinimumEstimates.lean",
+      "native_sha256": "f9d88fbac3a6727dd7107e99f3004816c2d47c42adbd81e126430642ccad1459",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/FixedMinimumEstimates.lean",
+      "candidate_sha256": "ce75fd5e3587fdb2b340de183c31dbb44c3385cb51c8049bf9f9d7daafac635a"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineLayers.lean",
+      "original_sha256": "ecbe0539d180ecdca32671ff8149ae2676e644b8ec0667d6d4dbec78b4b93999",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineLayers.lean",
+      "native_sha256": "3b32464b65f6478248c87eba3171b18e1b2ba06af8bdbde93cd10d0b4974538c",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineLayers.lean",
+      "candidate_sha256": "bf7ce82337c8f1b97351327967c308613b11d6aba51b0c940e4919404b2aa110"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/TypeFamilyCertificate.lean",
+      "original_sha256": "944743ae7887ecc6751bcbd236ff202fe487724059ce3dd51c7dc065cdbcaecf",
+      "native_source": "proofs/ReverseRateLimits/Upstream/TypeFamilyCertificate.lean",
+      "native_sha256": "bb65990644216f8982153c70279d7cfbc9ecd67191008e2f06415875f649634b",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/TypeFamilyCertificate.lean",
+      "candidate_sha256": "905616e7af3b638edc79f15f18a2f2af44270486edfb71e45d6b97dc7cf4023f"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineLocalConstructor.lean",
+      "original_sha256": "49947ce72a29043567ca090e58cc2783c045530485ab561c4cb7aafa6a89976b",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineLocalConstructor.lean",
+      "native_sha256": "698a1fd9e3486b89d35b8cb21e8dc0405c4f1de80f6447199afdc3c4c8d973d0",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineLocalConstructor.lean",
+      "candidate_sha256": "5bccab172a1de14ec78a03fc84eb30fc1dcc761988c217d8e5a0baa0b05e18c1"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/ActivityLimits.lean",
+      "original_sha256": "0a37bbe13cd81047245e02b0a7aba6ad51615fe521a73cd8e7b435e34fb21599",
+      "native_source": "proofs/ReverseRateLimits/Upstream/ActivityLimits.lean",
+      "native_sha256": "10cd043056431c61ffbfd327c90cee73d77657eaed1201988a85ed4f7f177bfc",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/ActivityLimits.lean",
+      "candidate_sha256": "7566767d5a14612670c8cd15db99265ba19dc6f4324d39be899525f576e93a72"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineLocalBand.lean",
+      "original_sha256": "e77ff037488eb730dd35d13ce4b0a3b4d49356c7e9b8233fa3b9f1d990ca54f3",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineLocalBand.lean",
+      "native_sha256": "b11d7f12501edfe5a55ee4e9a73369aa8bd00ac450d5e6531b5ab0bb848541cf",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineLocalBand.lean",
+      "candidate_sha256": "54b5c75ad4d6bd08b9e29ad53183105dbdb6199865fcac863f89104eb957277e"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/UniformOffsetDecay.lean",
+      "original_sha256": "b35c02686feaae5698d5c67ce064cff18765bbb9a4d2ab0b93a01ee0fa07c27f",
+      "native_source": "proofs/ReverseRateLimits/Upstream/UniformOffsetDecay.lean",
+      "native_sha256": "17f21e9a08a363d212e69ae9f43b3bb44e16dece00c9a0a9d214181470cf0267",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/UniformOffsetDecay.lean",
+      "candidate_sha256": "61ae661cc17643d2659941c825399d9275757ca8984dcf8a05909117a6fae4b9"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/LocalCertificateRadius.lean",
+      "original_sha256": "cb305484bee0f0e5eb531c76f31585ab15e75b34001e1c06f5552fb6888b5b55",
+      "native_source": "proofs/ReverseRateLimits/Upstream/LocalCertificateRadius.lean",
+      "native_sha256": "34c51857199b8fba75514d922685fd07ab17ebd43dec8ec54d88f40245f72877",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/LocalCertificateRadius.lean",
+      "candidate_sha256": "fd133b3266dd90cbd79f188dff67ec14b8712c9f8e26cf820056c581febecab7"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineGluing.lean",
+      "original_sha256": "4966ab7b554b6f0904dc789f257de98fdf73e4f2b36015200cefc122fafbe814",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineGluing.lean",
+      "native_sha256": "64a2d059e339b7f2e6e3a847d42e296ad9d902e2fd8919bb1f0f52ccd55f257f",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineGluing.lean",
+      "candidate_sha256": "9d00a1f1ef7e542981cbce72c7919ba0d6fa69118e7b35a4dbde8f9dfc2271ce"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/PowerAsymptotics.lean",
+      "original_sha256": "77cbab5720a69bdd8a50917cbc8846222d5a1058e11ed6acd210ae29b238d042",
+      "native_source": "proofs/ReverseRateLimits/Upstream/PowerAsymptotics.lean",
+      "native_sha256": "d423d7479ed1cf6081149f0b9d6374191ac20620afaaf803e72f4627239f67ae",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/PowerAsymptotics.lean",
+      "candidate_sha256": "94d5f1568a4eb76e98684d92842a641ecf8383f6f8ed4ed2b9fcc7511e782079"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/IntervalGluing.lean",
+      "original_sha256": "265287d8be8e6b66d8546af803d1d8773d1c1987b1b8b0aaa5f7e3f85393c2b2",
+      "native_source": "proofs/ReverseRateLimits/Upstream/IntervalGluing.lean",
+      "native_sha256": "c5cea6b754d855cbb65297b8174797da12d8f501c72cd4b33915faa28004a128",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/IntervalGluing.lean",
+      "candidate_sha256": "df6c63dfdc0eda5af8af4df3aefa7c29c7fb2971eaf2fb613a88e13f060555f9"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineGlobalGluing.lean",
+      "original_sha256": "9a34128d07adc834e3a72a62a03abe7d757edfa2ecd7fb50bae841e44c82c576",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineGlobalGluing.lean",
+      "native_sha256": "5f32c4f0048c83f5a9469bc1bab631bedf687fcd662e273c9d74c1eff9d170fa",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineGlobalGluing.lean",
+      "candidate_sha256": "97088d465f9fa0faa830e972758b7fb43dc30e5f5baaa394d78c0b214732609f"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/GlueLocalCertificates.lean",
+      "original_sha256": "d904dae482e5637ba1d177c16ec2cb53b163f19cbf81ebb33e76f1c9e74b1956",
+      "native_source": "proofs/ReverseRateLimits/Upstream/GlueLocalCertificates.lean",
+      "native_sha256": "a66baf9975e92cb06a2e4e83be5cfd74205341615b510581b6fb7dd72e069f0d",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/GlueLocalCertificates.lean",
+      "candidate_sha256": "1a206738da76c3a788a42fbba46c94c1f5257ca0eea922bfe505f9f9efa24045"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineExistence.lean",
+      "original_sha256": "435b26503bf1faa5d771a968f88dc0fd81b2ad35b8d5e71529df1b3746429786",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineExistence.lean",
+      "native_sha256": "0a7225874f5082fd4e02e59e340966626cfae919c3e61f0b630703780d8c5035",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineExistence.lean",
+      "candidate_sha256": "ac6694b9127ecacd9c5b3b57f115813f9be7375ede8b5069435b5685abfa5d1b"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineLocalization.lean",
+      "original_sha256": "6a96189f87b614afe423debe8adc7afffc87a468f2052c60a29006313a386c38",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineLocalization.lean",
+      "native_sha256": "38339dd5c635d890fffa900769c4536df942d66d75a7b781c821c5eaceff75b3",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineLocalization.lean",
+      "candidate_sha256": "f27ae8643751c9c6bc4b593f9cfd0e363a128cd6b4dd511bb584e06552ebf228"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineUniformCertificate.lean",
+      "original_sha256": "bb268322dc5298d774a364b3c3384fe348b1b32701d2503da1ee9ffd1b11b9ed",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineUniformCertificate.lean",
+      "native_sha256": "69975a257f7eb256d9a5ec8b5fc2b118770b7e9db57c00518114a89b6f411185",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineUniformCertificate.lean",
+      "candidate_sha256": "2ae103cdbcf1aeb20fc34243c5165e3ca341b1be4b62fce8ff1846fdbc78f5cd"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/Model.lean",
+      "original_sha256": "a9d86f6faa923fcfaf9e300ecf9a3f3ad221e0d32dcd90a03a52d46aac36858a",
+      "native_source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "native_sha256": "d63a8c0ee9ad74dff1016815b7b05c3f16b04e1ffd1445f31c667e6c280d4fb4",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "candidate_sha256": "e112cd8cf9d72dca2e174b81ff313e2685ea05c628a9205107b465740846dbed"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/UniformAffineData.lean",
+      "original_sha256": "8e37a8042964b978df8b3b2bf38ba6eb8a3c689454e9153e9723b79df6777ca8",
+      "native_source": "proofs/ReverseRateLimits/Upstream/UniformAffineData.lean",
+      "native_sha256": "50d9c9be5be2b4c39ea3c655bf6da9d2f4b549de664f9c86eaa4d197a8cc2c3a",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/UniformAffineData.lean",
+      "candidate_sha256": "840c7286219312c33ad8f3b0575bff87982d3a8433c9e8e35eed4e250bc4b310"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/SignTolerance.lean",
+      "original_sha256": "8f640b6731ab8888a08b7bbeaaa03c818ec2829f8092e09b89962037dceb6f0a",
+      "native_source": "proofs/ReverseRateLimits/Upstream/SignTolerance.lean",
+      "native_sha256": "1cf4bd99fce923d9ed4d9639014333f3ac8e3476d02f2951f7861e89f3b7258f",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/SignTolerance.lean",
+      "candidate_sha256": "086f4163aea0468a0ccecb3453e0aac2d8023bbfc4ea79eb08918978564a55c7"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/SmallParameter.lean",
+      "original_sha256": "3399d0b4373442610bb3110b9e4def5589f16fef55a7b05b1096c9172dc5a4e9",
+      "native_source": "proofs/ReverseRateLimits/Upstream/SmallParameter.lean",
+      "native_sha256": "5be5563481d6cf8988a48790ea80c502e87a2459e2195ecb0fe1e3a44a83a5ff",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/SmallParameter.lean",
+      "candidate_sha256": "870955937b300eae6fca2fcf72c233e5a95de9d9a112bb871501858f68b4a024"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/MonomialOrder.lean",
+      "original_sha256": "fcbcd2345496456fcb5c812fc2daf9cd61ab4c9426e4ede790deb904581e78f4",
+      "native_source": "proofs/ReverseRateLimits/Upstream/MonomialOrder.lean",
+      "native_sha256": "f149727a82e2087b38f06d448affd5982fef13e9b83de84bd978a39f0b8cbf61",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/MonomialOrder.lean",
+      "candidate_sha256": "92966f20448257280b5a2ebd76f90658b0ae0dbcf7ea55e75dcf0444c9d0ba33"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/PlateauCertificate.lean",
+      "original_sha256": "213a0616cbf6f10803501d23136e421670476a9487e74aca0184ef06afc0306a",
+      "native_source": "proofs/ReverseRateLimits/Upstream/PlateauCertificate.lean",
+      "native_sha256": "8bcc1a079b6759e96333b4a44d7a0c6d4eba737754a49964bef0f39194161d37",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/PlateauCertificate.lean",
+      "candidate_sha256": "d54e36dbb8a7efc3de3e0b8de402568489e722ca864f8b297d6c16cf831b3dfd"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/CutDecomposition.lean",
+      "original_sha256": "2665b0f77c67eceb2627425a9e7a499a49afcf1ed23559ca5ef99d2be168d5c8",
+      "native_source": "proofs/ReverseRateLimits/Upstream/CutDecomposition.lean",
+      "native_sha256": "99d33dc43ad84454d474552865a5c5b6b9c14c0617e7920706d49b9d5455af44",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/CutDecomposition.lean",
+      "candidate_sha256": "ed2efa18ea27c96012446bb5e83444e5dfc92cd2afcf2a1a314cf8ec8cad1990"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/CutFlux.lean",
+      "original_sha256": "de3b03283d6706c68fd025f6a16a7d6b63fac182e57767aedfb31905d5f5636a",
+      "native_source": "proofs/ReverseRateLimits/Upstream/CutFlux.lean",
+      "native_sha256": "61908b5739b8b614c718590bfcc7f23f64c63eb09f31284ca7b4784451be1c00",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/CutFlux.lean",
+      "candidate_sha256": "e1cfdabe6433eecbb0e7a54ce834528a3e0c35a4b040cfa2682eb1507d67456c"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/MassActionFlux.lean",
+      "original_sha256": "388beb813c8a75e4277a63aece0d1d040237fa737e0495194d35312393b3a1b3",
+      "native_source": "proofs/ReverseRateLimits/Upstream/MassActionFlux.lean",
+      "native_sha256": "23b6e1c95dc5b53f00862d1598871eeb35f4822b90ecc14e13e59e54b55bc29e",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/MassActionFlux.lean",
+      "candidate_sha256": "debdc0febe8be2365b40caaf77f66ab44a3a70df794ac130b1bfb2982146dd5a"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/NetworkBarrier.lean",
+      "original_sha256": "fdb54812deaabd3fb0bdd3aeb73d85a2ac9180d7b032f49f59c53c13e2a766a3",
+      "native_source": "proofs/ReverseRateLimits/Upstream/NetworkBarrier.lean",
+      "native_sha256": "a87ff3ea9be0f396e92cbfa0ea9b9ad4d82ecc026a904acbf44ab042b264a50d",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/NetworkBarrier.lean",
+      "candidate_sha256": "5cebf6ca60b00c08d670124189df7c9d7d4633eac65fa433fdc8a4169afbca04"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/ReciprocalBox.lean",
+      "original_sha256": "d3b96276da67ca95385b3c222be1479cf61663f40ed14c61ad8cdd92ca9b3e59",
+      "native_source": "proofs/ReverseRateLimits/Upstream/ReciprocalBox.lean",
+      "native_sha256": "f4c0a6f620a6418c1261df96f22bc6bc64a8911d3ea2b6089d11160041771631",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/ReciprocalBox.lean",
+      "candidate_sha256": "ee6a140d18f613017a6f575acab08cb0b8ddf15005dcd6e08f120e7cba964a56"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/FiniteMinimum.lean",
+      "original_sha256": "035f902e256da3f4806a4825186c0c974ba6edd35899d6a2fbbd768f41e35721",
+      "native_source": "proofs/ReverseRateLimits/Upstream/FiniteMinimum.lean",
+      "native_sha256": "101cbc99c6f9ffdb4b93b0cac124f7d3c53739d4501ae655d0415cddee61cd63",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/FiniteMinimum.lean",
+      "candidate_sha256": "e65b3779f75b6db70edb1d965e010134a0e5b7e3ced23c3877134fe2cf4508d6"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/PlateauGeometry.lean",
+      "original_sha256": "49b9310fa6cdb5890462ae4770f67949b579c56cbe1eac42f2c0c6e613eb8b44",
+      "native_source": "proofs/ReverseRateLimits/Upstream/PlateauGeometry.lean",
+      "native_sha256": "30e7719257cdc3527cb2e58db83a48880a32ded66a1aa691bf0503e5bbc48ed8",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/PlateauGeometry.lean",
+      "candidate_sha256": "b4157d5eea79378fceb4cfdda4b13fa749aad501ce108402cf69cd64b7156cfd"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffineTrajectory.lean",
+      "original_sha256": "12738d63bd63c49f302a9551b0fde0bdcaf7880a139fa997c7de13b3dc794a46",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffineTrajectory.lean",
+      "native_sha256": "5e44e2150b46135f47487487db909652b6fa97ab5ce0b3574dca837db3200c5c",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffineTrajectory.lean",
+      "candidate_sha256": "a24add8047eef979b1027708626d0184f578ec4352dc21f937ed43c4b04a3fd1"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/PolyhedronGeometry.lean",
+      "original_sha256": "0b61dfbf4a21c4cf1d98db5594b1710230397e57a0f5d3b79641f1c21f96ea97",
+      "native_source": "proofs/ReverseRateLimits/Upstream/PolyhedronGeometry.lean",
+      "native_sha256": "fbbb688905a65afa6de64084726dc49cf5661d2ba84fda670ca1279c72087b28",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/PolyhedronGeometry.lean",
+      "candidate_sha256": "5319de0529e3b25bdfc8dc11583fdce411253e5a58a5a844a5013844a05d82f1"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/AffinePolytope.lean",
+      "original_sha256": "04a7d3e02cdda94bd3dc185c9bda2957d2ac3d83f5b90939fd04b95ed6f76ef4",
+      "native_source": "proofs/ReverseRateLimits/Upstream/AffinePolytope.lean",
+      "native_sha256": "65c8ef280d5a2325da2e977162c781034bba19d62deadda79c015d05682ac525",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/AffinePolytope.lean",
+      "candidate_sha256": "ebc5440085e731cf07f1498b13cbe7ef4fcbacd95086087f0887502f12bcf372"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/MassActionDot.lean",
+      "original_sha256": "d1815c581540eb9d446c14e01948a9cc5ef26b58b127e322723b255d0ca7732d",
+      "native_source": "proofs/ReverseRateLimits/Upstream/MassActionDot.lean",
+      "native_sha256": "badffdaccbb5e290562d51e8819b7523c713dea2642d73b2c257f98390e32a98",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/MassActionDot.lean",
+      "candidate_sha256": "cd7ed33a1f6dad856985a13bbb12f2159bd663aa1fb431777da844be8cc0468d"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/BarrierTrapping.lean",
+      "original_sha256": "d3701e803dfe65eab025ca5c0d5ddac337d2ba28138afff2fc6d5920be4d7d87",
+      "native_source": "proofs/ReverseRateLimits/Upstream/BarrierTrapping.lean",
+      "native_sha256": "ca3c615322d34de8f7a6064401b3ed64b0cc5dfd437ab84408ab66bc85810c45",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/BarrierTrapping.lean",
+      "candidate_sha256": "bd4a02bc2eb70b0f8549f9de0e80edf064157ca917a5f75c27a2970d7d35b866"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/LocalExistence.lean",
+      "original_sha256": "4f173b333a65c79d4695e28aaa89a9876c44ad880d34c9713663af6d73131e95",
+      "native_source": "proofs/ReverseRateLimits/Upstream/LocalExistence.lean",
+      "native_sha256": "87bec4d5c6e518137d7b375e2680dc7ec27a7e2e8f22810d5d5ab34673ab2bc8",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/LocalExistence.lean",
+      "candidate_sha256": "8dcab37743beec19a347006f0c85995654ff9a9d2e9c752a75483cb3d7215e89"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/ODEConcatenation.lean",
+      "original_sha256": "b8490b5cfaccd2f5692694dc9d22cc274a4464b8faa8a9102a1da22ca881ef78",
+      "native_source": "proofs/ReverseRateLimits/Upstream/ODEConcatenation.lean",
+      "native_sha256": "e963a77d3b3b8581221d1bbd0dcfc8a55b7736cdfc508a0361826f2e7f4ec06d",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/ODEConcatenation.lean",
+      "candidate_sha256": "d5410cb0f5f54e2216b0d2abd25f81c0554e586d980a33f8b037baed6b62390c"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/ODEGlobal.lean",
+      "original_sha256": "868f00977232afe442a4298ae61e613fc8c9f481f405b27ce6eeb49c143d5e61",
+      "native_source": "proofs/ReverseRateLimits/Upstream/ODEGlobal.lean",
+      "native_sha256": "9d3ca665f345f0611a220b04d8ec07747632d52985bfafceacb4879fe9c9c164",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/ODEGlobal.lean",
+      "candidate_sha256": "01d6482119c905c6cd0ab91e7fba9c77e5d431df1a51dd4e740ee973bc663e05"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/ODEUniqueness.lean",
+      "original_sha256": "0af74f89341a14cdd74077757f1daee44f3644bf54385ad604e7bcbd613c3c60",
+      "native_source": "proofs/ReverseRateLimits/Upstream/ODEUniqueness.lean",
+      "native_sha256": "a75e1feb69f5fd2274f978ab481518c770b2c48563f0a5ea350b531ad12ced54",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/ODEUniqueness.lean",
+      "candidate_sha256": "9301948254f35fe78402e7de7f2694ef606913e1bb1d7703a43c7062131fd887"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/SolutionUniqueness.lean",
+      "original_sha256": "89cbc46e764b42c4c989e8f5135c400b6c0c911d6d695856ada4d30235e36e0b",
+      "native_source": "proofs/ReverseRateLimits/Upstream/SolutionUniqueness.lean",
+      "native_sha256": "976828efafa18e6feae0237a7d734754e22556d49101707653477694a5295fb4",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/SolutionUniqueness.lean",
+      "candidate_sha256": "e3ef23b4bed78b02e0d0c5b3e56caa7a3381ccaaa9ba0ebcda2e7c4e64355500"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/CompactContinuation.lean",
+      "original_sha256": "c5238f045e74cb47ead421577b15fd0ac1157b8a24133929c26709df93adb37b",
+      "native_source": "proofs/ReverseRateLimits/Upstream/CompactContinuation.lean",
+      "native_sha256": "e2dbfb636849258d3fc580e99016074f1693d985308b4567c98bab3b1e6895f2",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/CompactContinuation.lean",
+      "candidate_sha256": "cadd96e52237034d195b9728dba91479ba8cd8b863e3014fb80871d8c324decb"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/ActiveBranchMinimum.lean",
+      "original_sha256": "e4d88e975d85ab335243df0edf28fac290c30121450a57ecb5aa5ca5b07081c4",
+      "native_source": "proofs/ReverseRateLimits/Upstream/ActiveBranchMinimum.lean",
+      "native_sha256": "d46ed2ca622fdaff35456e9a6883edccf3706b6259cc9d5d963ad36ec591fef8",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/ActiveBranchMinimum.lean",
+      "candidate_sha256": "e81caa8d386290d30176b536fa062fc5dd64a6a4cdac3ed0cb2218024aafa85e"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/BarrierGeometry.lean",
+      "original_sha256": "0e22dd6dd3957f35d1af059c707cc6de77b6f9d58ce1aa4b968412fb2d515f0e",
+      "native_source": "proofs/ReverseRateLimits/Upstream/BarrierGeometry.lean",
+      "native_sha256": "4578f73ccc7ecf7195fe3ea5a4d7fce03c556179dedbe6555f03158229efc8bc",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/BarrierGeometry.lean",
+      "candidate_sha256": "5936d368292dd983d6afb0be4ee62e923882d935cf7fff8c9e7bd9af9b849e08"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/BarrierInvariance.lean",
+      "original_sha256": "257634a1904823b9d484d133eaae816158ec65eff7a70a5824fe7cf470a31b75",
+      "native_source": "proofs/ReverseRateLimits/Upstream/BarrierInvariance.lean",
+      "native_sha256": "8348051a7218066581e99edadd590a774300bb464d1fc5dea90133b154cdabf3",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/BarrierInvariance.lean",
+      "candidate_sha256": "0e8478a4166e986204ff683c66f93880cbcc73f101b96351fb74d32bf8495af8"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/CompactBounds.lean",
+      "original_sha256": "af82a12a9809255fa2e7902e2e7c5fe3782b5abbf77e9aad3a573b3cea16bb0f",
+      "native_source": "proofs/ReverseRateLimits/Upstream/CompactBounds.lean",
+      "native_sha256": "a0d44172b648a57d558f56b8431537260dcd9838934ba5a9ad46701e422a40f2",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/CompactBounds.lean",
+      "candidate_sha256": "502881fe4862d5e61fd062972dc5f81999de108fc9bcea599f61b8a1d017d225"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/MassActionRegularity.lean",
+      "original_sha256": "fe40f3fb7ced140d9d8129712c10daf7bfe2e288b19a22c9aeae11ce4130fd0f",
+      "native_source": "proofs/ReverseRateLimits/Upstream/MassActionRegularity.lean",
+      "native_sha256": "397bbe2e7fa113cc1f6215120736e1c6fede22a31ba0da58d597933627247f60",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/MassActionRegularity.lean",
+      "candidate_sha256": "eb2911e02deea7d0dc5a7c226e8a652a1414bfdd2464e9565e2d4ce98cfe08b6"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/CompactInvariance.lean",
+      "original_sha256": "334a790e742ab3a522f63fec3aa272fb3f02dd995567985c79daa8a3c5b1965f",
+      "native_source": "proofs/ReverseRateLimits/Upstream/CompactInvariance.lean",
+      "native_sha256": "d9837fffa1e90c99bf38db9d9122d657fb1df8b4edc9e0b95be451e5363dc432",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/CompactInvariance.lean",
+      "candidate_sha256": "87de4fc153e799552625dccdaee1b2334e490594e18f32d2e8e13ec095ae4141"
+    },
+    {
+      "original_path": "lean/OAI/Analysis/MassAction/Main.lean",
+      "original_sha256": "60df46a3e981c51183ef9fd7d246d3c2026e508c0c5a33836cdf1a668ca821ca",
+      "native_source": "proofs/ReverseRateLimits/Upstream/Main.lean",
+      "native_sha256": "22978935748b970169316a1eeb2de8c8a690d6842f13a3aba7fa203d7d5c1d03",
+      "candidate_source": "proofs/ReverseRateLimits/Upstream/Main.lean",
+      "candidate_sha256": "bea5560f656ac927cd5566fda1458ed3c5da2f696adf6c98d5885dc9b1ad6a10"
+    }
+  ],
+  "scope": "Imported affine geometry and qualitative global existence machinery; original quantitative and coupled dynamics contributions are distinguished in the claim map.",
+  "modifications": "Native compatibility adaptations, relocated imports, module-system exposure and target API/import/unfolding repairs. Historical source comments about import relocation refer to the earlier native copy; this inventory records the final submission hashes.",
+  "prior_target_source_correspondence_used_for_modules": 29,
+  "prior_target_artifacts_reused": false,
+  "fresh_selected_solution_and_six_kernel_replay": true
+}

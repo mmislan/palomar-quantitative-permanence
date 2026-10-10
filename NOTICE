@@ -1,0 +1,14 @@
+Quantitative permanence and recovery with vanishing reverse rates
+
+Original quantitative contribution and companion manuscript: Michael Mislan.
+Apache-2.0 covers the original proof development and manuscript.
+
+The finite affine permanence and global-solution sources are adapted from
+OpenAI's math repository at adc7f1241b42e322a6451854ab7e4b4c146bf78a,
+under its Apache-2.0 license. Their upstream notices and mathematical attribution
+are retained. Import relocation, compatibility adaptations, module visibility
+and subsequent target migration are recorded in UPSTREAM_PROVENANCE.json and
+MIGRATION_PROVENANCE.json. These records distinguish the original quantitative
+development from the attributed qualitative construction.
+
+Mathlib and its exact pinned dependencies retain their upstream licenses.

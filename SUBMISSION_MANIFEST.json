@@ -1,0 +1,648 @@
+{
+  "scope": "Private source release; public/cloud/intake actions not performed",
+  "files": [
+    {
+      "path": ".github/workflows/palomar-check.yml",
+      "bytes": 759,
+      "sha256": "5cffcadc919d3201c7cd557de104ea599cacaf3ef8f3ea22902c5bd92afd6674"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 29,
+      "sha256": "c5e849a047287b5a1514a350175e5b90c8360133425c8a06b29b69f3f9faf292"
+    },
+    {
+      "path": "BUILD.md",
+      "bytes": 1713,
+      "sha256": "57b4f4e2827ab11a590a0d60815ca3be3c7ff8f9a9784935e8d19db2aa98bf3a"
+    },
+    {
+      "path": "Challenge.lean",
+      "bytes": 19957,
+      "sha256": "55da0e191a3352a207fb7290a572b97a2eeffc495bd8a10964e9d2ed7962d3f2"
+    },
+    {
+      "path": "CLAIM_MAP.md",
+      "bytes": 3998,
+      "sha256": "1f63ea917bd221c95949b7bca53661818821e702e3173f7619400a8b5dc49e9e"
+    },
+    {
+      "path": "comparator.json",
+      "bytes": 1235,
+      "sha256": "822eda9681553e980de7dd4a92fa03398f1f765c4f2ed16a061a89ecf0ffdeb0"
+    },
+    {
+      "path": "formalization.yaml",
+      "bytes": 11051,
+      "sha256": "5345179970598c07fdc1099965c6b9b130bb87281547af6ed512d20ff6e3c4b2"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3677,
+      "sha256": "cf0af9648dcf812fe2222dca77f84d823af0d45cddcb589a63598a58acb7c59a"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 483,
+      "sha256": "c43580b2c9595260c6d22872ca1a2c4937e78e7bff70ec8137cf101166f1d656"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 29,
+      "sha256": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "MIGRATION_PROVENANCE.json",
+      "bytes": 66143,
+      "sha256": "1c76e55359aa01cde281623e9a4f5d803edb22f2260f94931ddf0b3d058562d0"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 817,
+      "sha256": "2ab8647b58596855203b24358ef59eec07049ff9bbdf9e1275bc9b3c8e7cb964"
+    },
+    {
+      "path": "paper/build.py",
+      "bytes": 1142,
+      "sha256": "23a8c5eba6abc765d001fd1e377a3f41464266d5705b26b0c676654e0ee76bcf"
+    },
+    {
+      "path": "paper/data/corridor_certificate.json",
+      "bytes": 22016,
+      "sha256": "41ac4d85860be271a3f0607815b472a51cb188022cbade435c38c42eea4764ee"
+    },
+    {
+      "path": "paper/data/dimensional_examples_previous_constants.json",
+      "bytes": 4862,
+      "sha256": "98c9ba1f2db707bc1ba5c99eb52bfb9f0f70358d56a53bd1f5673ed08f3d9ee7"
+    },
+    {
+      "path": "paper/data/parameter_corner.json",
+      "bytes": 5532,
+      "sha256": "5ff137c289275fd914cfa9b6cb61674d5890a9eedc017d0c05d45de31a4532fa"
+    },
+    {
+      "path": "paper/data/range_followup.json",
+      "bytes": 1648,
+      "sha256": "7e31a5a0b5022ff7df81335c03c7fb05daa456040b0db611bd4a59e146e05fbb"
+    },
+    {
+      "path": "paper/data/recovery_trajectory.json",
+      "bytes": 527,
+      "sha256": "53b94b569ce519659df60bdb262e41305f1ba02dea0cb6bbd09354df6c9ac386"
+    },
+    {
+      "path": "paper/data/recovery_trajectory.npz",
+      "bytes": 13451,
+      "sha256": "37d094353f9a52b5b1f8616911bb8c47a10b5c3fc6206fac280c98c452d2515f"
+    },
+    {
+      "path": "paper/data/stochastic_birth_chain.json",
+      "bytes": 1409,
+      "sha256": "05f539a80190f87bb42ab00793a0711373c42835d5a0f1a22bd61ac6eb601151"
+    },
+    {
+      "path": "paper/figures/exponent_family.pdf",
+      "bytes": 41926,
+      "sha256": "9146d119e7d107c7471549bbaadfe2902064e794844fc74f128f3ab36589a4d6"
+    },
+    {
+      "path": "paper/figures/parameter_rectangle.pdf",
+      "bytes": 84120,
+      "sha256": "2dd8164a43bdf6ca0054773c8e6fbcd1f32c1263a4ebc60ee266678e8abfd83e"
+    },
+    {
+      "path": "paper/figures/recovery_trajectory.pdf",
+      "bytes": 65973,
+      "sha256": "dcdcdf920828002537b0f7b53f06a385b805a74ed1d897a61447dee61265e035"
+    },
+    {
+      "path": "paper/main.bbl",
+      "bytes": 9968,
+      "sha256": "3c13fc09723779ac71cdbc1d7334fcfe8b58acd5d9709e15e19be40200abdffc"
+    },
+    {
+      "path": "paper/main.pdf",
+      "bytes": 806172,
+      "sha256": "3abbdc01e78acae0e1d819160d2230fa8569d55fee6d91779995c6f8a2b0f4a3"
+    },
+    {
+      "path": "paper/main.tex",
+      "bytes": 85393,
+      "sha256": "ca8c050f61f522f8403c90ebda4fef5a31c3e97e5238d227fe1404495470006a"
+    },
+    {
+      "path": "paper/refs.bib",
+      "bytes": 11242,
+      "sha256": "1a89388d8f20b27178be4f535916d0fa50017daa0f73ff0e96e0c91a379e266d"
+    },
+    {
+      "path": "paper/scripts/make_figures.py",
+      "bytes": 7208,
+      "sha256": "e52f985b7a34f931eb283fe14092e341ed5405986d25cf5a325300ddd2e8bf9c"
+    },
+    {
+      "path": "paper/scripts/parameter_corner.py",
+      "bytes": 4700,
+      "sha256": "ab87793fb7adffbbb831f3a8899f0acdcb45f9e74e1eacc692e96160e9e6a06f"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/BoxInvariance.lean",
+      "bytes": 5994,
+      "sha256": "fec8cbf0fcc84580ecde92e2fe5fc176a8ea067f74a80a4c0ef59f9c81730ca6"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ClassInvariant.lean",
+      "bytes": 2242,
+      "sha256": "a2d95d42992d118b5ec57216090511cb1c0c12d3d1db15ee9c150439ca5dee3b"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ClasswiseAbsorption.lean",
+      "bytes": 4144,
+      "sha256": "92e3f3b2241e51ac05a50fcd5b22422e564888e360d15ffee28a59da9cb4419f"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/CommonClock.lean",
+      "bytes": 1821,
+      "sha256": "b3dd92e8b580ee2150c55cc10dd57d7809df32a30d734bddab0467890f1415d8"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/CorridorCertificate.lean",
+      "bytes": 25232,
+      "sha256": "d2043492f372a0adb6ad5f5a7215770e83e31db9a6d5866d87b8bafdbed5bcde"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/CorridorDynamics.lean",
+      "bytes": 12659,
+      "sha256": "94b0221140161dc92553a415c5a1b95f3f20883d3252864469daccfd9cb8a296"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/CoupledSource.lean",
+      "bytes": 3717,
+      "sha256": "08665698ee10e3280bb6ff4149edd337c5e2e4617c117227692af6d5c028cc27"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/CoupledTheorem.lean",
+      "bytes": 4029,
+      "sha256": "2e6a9a2c392dbde853378689c9bc23cf67f1711b7498eca6f5e75abab3ddfb98"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ExponentFamily.lean",
+      "bytes": 7227,
+      "sha256": "1c3aad992b2a6960b775690d2064e272f0a4ca85a47cc46076b5dff284b3ab99"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/GeneralTheorem.lean",
+      "bytes": 3128,
+      "sha256": "46da36b854535021f7d5f044d735f4aa9d0fc8a83bdabdd3c28cedb706c19e97"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/GeometryActivity.lean",
+      "bytes": 2353,
+      "sha256": "932f4d8714b8fd582846200f3ce4f67e4314c53e688d9fcb67fc613885e1dbd0"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/GeometryBridge.lean",
+      "bytes": 966,
+      "sha256": "adb4be84d6c5054b0839923119bea90252547b13769f10bf47882887062f4422"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/GeometryDrift.lean",
+      "bytes": 4440,
+      "sha256": "1a3a70653689aad6a392586955b2e57254ba3539ea8954150caa60c9b97c2fbe"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/GlobalInventory.lean",
+      "bytes": 10608,
+      "sha256": "b2e3feb1ebe419a465012daca37bb10753aebe589ab37f5a82a09a63885188c5"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/IntervalSoundness.lean",
+      "bytes": 6987,
+      "sha256": "dfc4130c4ba8b458146f1a1a84e4be1fb02dcb18439bc4596ace3f53dfec29e5"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/PhysicalBounds.lean",
+      "bytes": 6646,
+      "sha256": "f889311791abf361bf26973d5933f8b38e6e08cbb7024311cbd375a6d941c972"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/PhysicalConnection.lean",
+      "bytes": 5116,
+      "sha256": "85ddb87fefebb807186fe286efd660b611aadb1cc8277da12ff8ad38dc3ffd39"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/PlateauEntry.lean",
+      "bytes": 2327,
+      "sha256": "bfd96c946e3109690aa825198142a1fe0fa5a474af0b667d7696c7a7c13fdac0"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Publication.lean",
+      "bytes": 6411,
+      "sha256": "8d9353492f1d45b23d8f288cc1da8655ad2b557a958b400530a5bc6b3c5fa56a"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/QuantitativeDrift.lean",
+      "bytes": 7993,
+      "sha256": "97b9bb018d302a7c11dfe09b113dcc88bbcfda5232aa2a17cf8ebdf6db6218f1"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/RateBounds.lean",
+      "bytes": 2514,
+      "sha256": "989110207aa59d211469ec25c583e71793b13d4bf95b098bd85e3a3472ea565f"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/RateScale.lean",
+      "bytes": 5359,
+      "sha256": "18aed2c614a2585414cce1955f5c7c1cf532c8821961fdc1b5ddaf119bafa5c2"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ReactionExtent.lean",
+      "bytes": 4458,
+      "sha256": "7614320d72960d4ea0263461df769caf85301d2f1a5e94bc3f2af4d0738ad3ca"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/RecoveryCorollaries.lean",
+      "bytes": 5452,
+      "sha256": "96949d60c38a44b2848d57509ce6335f2467023b15f7a2f2f824bcfb70d562f9"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ScaleChain.lean",
+      "bytes": 3850,
+      "sha256": "00dfdfa81ad589bf403b2cb5ee915fbfddd604e330663f6f601c2655fc0742a0"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ScaleEntry.lean",
+      "bytes": 4604,
+      "sha256": "624ab1b0afc6a8cff4ea470c082eb2b9ff7dfb6619599eb8929472acfb04e7de"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/ScalePlateau.lean",
+      "bytes": 9033,
+      "sha256": "007b91459d6a356ff6ffdf510735108ba1390b0e218b4931e6b773b05e59ed98"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/SharpRecovery.lean",
+      "bytes": 15693,
+      "sha256": "00359e0c3a0ec472ce08abed09e8a9d45e1de40901ffb780f79bcf2b166ba605"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/SourceBounds.lean",
+      "bytes": 31023,
+      "sha256": "b71a35e9bf2d19bf2bbddc95cd54783923b1a70f026e11323e2ed49fa7c5b36d"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/SourceExistence.lean",
+      "bytes": 2268,
+      "sha256": "3a52230522c4d94eed79dfcd1d2efa1e93ae1d566e1449f4e62484a69b8e5989"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/SourceNetwork.lean",
+      "bytes": 3834,
+      "sha256": "0d4239f18233399bb3f2e70e19c23ed4463b719717525d48f7c3a306884decdc"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/StateCapacity.lean",
+      "bytes": 3502,
+      "sha256": "86b10c20fe73de6fc976e603ad07d134aeaa9774f930f0183959eae5edaffa22"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/TimeComparison.lean",
+      "bytes": 3121,
+      "sha256": "8f3a65fb5b2b6f3e54b335c96b343cbc38b73069f91f5ec53121a2b5ea0946cb"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/UniformGeometry.lean",
+      "bytes": 2085,
+      "sha256": "d1d435f7365a66f8c87312e8b097950212f74bd17b804c654f3e7bd7a319aeee"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/ActiveBranchMinimum.lean",
+      "bytes": 7425,
+      "sha256": "e81caa8d386290d30176b536fa062fc5dd64a6a4cdac3ed0cb2218024aafa85e"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/ActivityLimits.lean",
+      "bytes": 5095,
+      "sha256": "7566767d5a14612670c8cd15db99265ba19dc6f4324d39be899525f576e93a72"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineCertificates.lean",
+      "bytes": 6349,
+      "sha256": "73af75c7da7839fc41a4c61b7313648a7549296ceb2439de7c3605d602caa819"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineExistence.lean",
+      "bytes": 1371,
+      "sha256": "ac6694b9127ecacd9c5b3b57f115813f9be7375ede8b5069435b5685abfa5d1b"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineGlobalGluing.lean",
+      "bytes": 14631,
+      "sha256": "97088d465f9fa0faa830e972758b7fb43dc30e5f5baaa394d78c0b214732609f"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineGluing.lean",
+      "bytes": 8259,
+      "sha256": "9d00a1f1ef7e542981cbce72c7919ba0d6fa69118e7b35a4dbde8f9dfc2271ce"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineLayers.lean",
+      "bytes": 11892,
+      "sha256": "bf7ce82337c8f1b97351327967c308613b11d6aba51b0c940e4919404b2aa110"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineLocalBand.lean",
+      "bytes": 4478,
+      "sha256": "54b5c75ad4d6bd08b9e29ad53183105dbdb6199865fcac863f89104eb957277e"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineLocalConstructor.lean",
+      "bytes": 1842,
+      "sha256": "5bccab172a1de14ec78a03fc84eb30fc1dcc761988c217d8e5a0baa0b05e18c1"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineLocalization.lean",
+      "bytes": 9300,
+      "sha256": "f27ae8643751c9c6bc4b593f9cfd0e363a128cd6b4dd511bb584e06552ebf228"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffinePolytope.lean",
+      "bytes": 3508,
+      "sha256": "ebc5440085e731cf07f1498b13cbe7ef4fcbacd95086087f0887502f12bcf372"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineTrajectory.lean",
+      "bytes": 7296,
+      "sha256": "a24add8047eef979b1027708626d0184f578ec4352dc21f937ed43c4b04a3fd1"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/AffineUniformCertificate.lean",
+      "bytes": 1615,
+      "sha256": "2ae103cdbcf1aeb20fc34243c5165e3ca341b1be4b62fce8ff1846fdbc78f5cd"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/BarrierGeometry.lean",
+      "bytes": 5386,
+      "sha256": "5936d368292dd983d6afb0be4ee62e923882d935cf7fff8c9e7bd9af9b849e08"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/BarrierInvariance.lean",
+      "bytes": 3506,
+      "sha256": "0e8478a4166e986204ff683c66f93880cbcc73f101b96351fb74d32bf8495af8"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/BarrierTrapping.lean",
+      "bytes": 3518,
+      "sha256": "bd4a02bc2eb70b0f8549f9de0e80edf064157ca917a5f75c27a2970d7d35b866"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/CompactBounds.lean",
+      "bytes": 2561,
+      "sha256": "502881fe4862d5e61fd062972dc5f81999de108fc9bcea599f61b8a1d017d225"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/CompactContinuation.lean",
+      "bytes": 2485,
+      "sha256": "cadd96e52237034d195b9728dba91479ba8cd8b863e3014fb80871d8c324decb"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/CompactInvariance.lean",
+      "bytes": 1626,
+      "sha256": "87de4fc153e799552625dccdaee1b2334e490594e18f32d2e8e13ec095ae4141"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/CoordinateEmbedding.lean",
+      "bytes": 8896,
+      "sha256": "e7b6209de9878151b37e8820f45129f7de82520f9aeef00efa6a5f4255bfa791"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/CutDecomposition.lean",
+      "bytes": 3222,
+      "sha256": "ed2efa18ea27c96012446bb5e83444e5dfc92cd2afcf2a1a314cf8ec8cad1990"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/CutFlux.lean",
+      "bytes": 6618,
+      "sha256": "e1cfdabe6433eecbb0e7a54ce834528a3e0c35a4b040cfa2682eb1507d67456c"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/FiniteMinimum.lean",
+      "bytes": 6715,
+      "sha256": "e65b3779f75b6db70edb1d965e010134a0e5b7e3ced23c3877134fe2cf4508d6"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/FixedMinimum.lean",
+      "bytes": 6796,
+      "sha256": "8d92c474bd77b81ed6936f803a7206d3e7296d583285368666a350ef2aa1bdf8"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/FixedMinimumEstimates.lean",
+      "bytes": 12361,
+      "sha256": "ce75fd5e3587fdb2b340de183c31dbb44c3385cb51c8049bf9f9d7daafac635a"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/GlueLocalCertificates.lean",
+      "bytes": 2687,
+      "sha256": "1a206738da76c3a788a42fbba46c94c1f5257ca0eea922bfe505f9f9efa24045"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/IntervalGluing.lean",
+      "bytes": 10669,
+      "sha256": "df6c63dfdc0eda5af8af4df3aefa7c29c7fb2971eaf2fb613a88e13f060555f9"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/LayerSequence.lean",
+      "bytes": 2203,
+      "sha256": "2b049e6128ef35fb811fa682b0719a7490b590dae0932634ee67a1a0b1e4e15a"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/LocalCertificateRadius.lean",
+      "bytes": 1643,
+      "sha256": "fd133b3266dd90cbd79f188dff67ec14b8712c9f8e26cf820056c581febecab7"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/LocalExistence.lean",
+      "bytes": 3274,
+      "sha256": "8dcab37743beec19a347006f0c85995654ff9a9d2e9c752a75483cb3d7215e89"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/Main.lean",
+      "bytes": 1971,
+      "sha256": "bea5560f656ac927cd5566fda1458ed3c5da2f696adf6c98d5885dc9b1ad6a10"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/MassActionDot.lean",
+      "bytes": 2496,
+      "sha256": "cd7ed33a1f6dad856985a13bbb12f2159bd663aa1fb431777da844be8cc0468d"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/MassActionFlux.lean",
+      "bytes": 2456,
+      "sha256": "debdc0febe8be2365b40caaf77f66ab44a3a70df794ac130b1bfb2982146dd5a"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/MassActionRegularity.lean",
+      "bytes": 1163,
+      "sha256": "eb2911e02deea7d0dc5a7c226e8a652a1414bfdd2464e9565e2d4ce98cfe08b6"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/Model.lean",
+      "bytes": 3035,
+      "sha256": "e112cd8cf9d72dca2e174b81ff313e2685ea05c628a9205107b465740846dbed"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/MonomialOrder.lean",
+      "bytes": 6669,
+      "sha256": "92966f20448257280b5a2ebd76f90658b0ae0dbcf7ea55e75dcf0444c9d0ba33"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/NetworkBarrier.lean",
+      "bytes": 7529,
+      "sha256": "5cebf6ca60b00c08d670124189df7c9d7d4633eac65fa433fdc8a4169afbca04"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/ODEConcatenation.lean",
+      "bytes": 4459,
+      "sha256": "d5410cb0f5f54e2216b0d2abd25f81c0554e586d980a33f8b037baed6b62390c"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/ODEGlobal.lean",
+      "bytes": 5484,
+      "sha256": "01d6482119c905c6cd0ab91e7fba9c77e5d431df1a51dd4e740ee973bc663e05"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/ODEUniqueness.lean",
+      "bytes": 3602,
+      "sha256": "9301948254f35fe78402e7de7f2694ef606913e1bb1d7703a43c7062131fd887"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/PlateauCertificate.lean",
+      "bytes": 3536,
+      "sha256": "d54e36dbb8a7efc3de3e0b8de402568489e722ca864f8b297d6c16cf831b3dfd"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/PlateauGeometry.lean",
+      "bytes": 5320,
+      "sha256": "b4157d5eea79378fceb4cfdda4b13fa749aad501ce108402cf69cd64b7156cfd"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/PolyhedronGeometry.lean",
+      "bytes": 6466,
+      "sha256": "5319de0529e3b25bdfc8dc11583fdce411253e5a58a5a844a5013844a05d82f1"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/PowerAsymptotics.lean",
+      "bytes": 4249,
+      "sha256": "94d5f1568a4eb76e98684d92842a641ecf8383f6f8ed4ed2b9fcc7511e782079"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/ReciprocalBox.lean",
+      "bytes": 3020,
+      "sha256": "ee6a140d18f613017a6f575acab08cb0b8ddf15005dcd6e08f120e7cba964a56"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/SignTolerance.lean",
+      "bytes": 5445,
+      "sha256": "086f4163aea0468a0ccecb3453e0aac2d8023bbfc4ea79eb08918978564a55c7"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/SmallParameter.lean",
+      "bytes": 7550,
+      "sha256": "870955937b300eae6fca2fcf72c233e5a95de9d9a112bb871501858f68b4a024"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/SolutionUniqueness.lean",
+      "bytes": 1808,
+      "sha256": "e3ef23b4bed78b02e0d0c5b3e56caa7a3381ccaaa9ba0ebcda2e7c4e64355500"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/TypeFamily.lean",
+      "bytes": 6387,
+      "sha256": "0b2c28acb197ab719eabb4754cee32d4dbcc6da5d5bdb18c3f46982ee0ec4954"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/TypeFamilyCertificate.lean",
+      "bytes": 4295,
+      "sha256": "905616e7af3b638edc79f15f18a2f2af44270486edfb71e45d6b97dc7cf4023f"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/UniformAffineData.lean",
+      "bytes": 3081,
+      "sha256": "840c7286219312c33ad8f3b0575bff87982d3a8433c9e8e35eed4e250bc4b310"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/Upstream/UniformOffsetDecay.lean",
+      "bytes": 4635,
+      "sha256": "61ae661cc17643d2659941c825399d9275757ca8984dcf8a05909117a6fae4b9"
+    },
+    {
+      "path": "proofs/ReverseRateLimits/UpstreamCompatibility.lean",
+      "bytes": 833,
+      "sha256": "099c87603d7f530064bc0fb51c09a13192a58073e3645f55ecf69eb2c32167ba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2225,
+      "sha256": "080e2ce4a1d8cec16f24969029733220878eb559f934cd02bc950724d9452f6b"
+    },
+    {
+      "path": "Solution.lean",
+      "bytes": 1065,
+      "sha256": "83b5925264f0164f3c8ad8d1e054f9ce32200acf6c3d31c8ae1895fa09323d6f"
+    },
+    {
+      "path": "UPSTREAM_PROVENANCE.json",
+      "bytes": 28874,
+      "sha256": "ab9ec278aed4c4d65909c1a0a26c340aef887ac6feed3627f662dcda28dd927c"
+    },
+    {
+      "path": "verification/local-check.json",
+      "bytes": 88511,
+      "sha256": "052067e698c7d2809ea4d6191d1267fa56579cbb6d1c797fbacc251b5523b37c"
+    },
+    {
+      "path": "verification/native-check.json",
+      "bytes": 23283,
+      "sha256": "23da6fe29de1c716d5e73711e8ab7f1a15a734e463e4d032432935c23459f65a"
+    },
+    {
+      "path": "verification/statement-audit.json",
+      "bytes": 19356,
+      "sha256": "a40c27f9e38e73dd34ea183d03cac214d682d151cac7b674500a18c0bf16c586"
+    },
+    {
+      "path": "verification/target-artifacts.json",
+      "bytes": 217137,
+      "sha256": "d6d610db316174bad195a6a984c76e178481005361b16e49fa409a7ac6cab445"
+    }
+  ],
+  "source_file_count": 89,
+  "selected_declarations": [
+    "ReverseRateLimits.general_quantitative_root",
+    "ReverseRateLimits.SharpRecovery.prepared_recovery_sharp",
+    "ReverseRateLimits.SharpRecovery.witness_sharp",
+    "ReverseRateLimits.GlobalInventory.global_inventory_clocks",
+    "ReverseRateLimits.SharpRecovery.family_root_sharp",
+    "ReverseRateLimits.ExponentFamily.identities",
+    "ReverseRateLimits.ExponentFamily.original_cutoff_bounds",
+    "ReverseRateLimits.ExponentFamily.cutoff_decimal",
+    "ReverseRateLimits.CommonClock.rescale_iff",
+    "ReverseRateLimits.RecoveryCorollaries.scale_tradeoff",
+    "ReverseRateLimits.ReactionExtent.restoration_extent",
+    "ReverseRateLimits.SharpRecovery.inventory_bottleneck",
+    "ReverseRateLimits.SharpRecovery.inventory_unreachable",
+    "ReverseRateLimits.GlobalInventory.inventory_bottleneck_scaling",
+    "ReverseRateLimits.RecoveryCorollaries.no_linear_inventory",
+    "QuantitativeRegistry.family_parameters",
+    "QuantitativeRegistry.admitted_parameters",
+    "QuantitativeRegistry.state_capacity_clock"
+  ],
+  "local_checks": "verification/local-check.json",
+  "manifest_excludes_itself": true
+}

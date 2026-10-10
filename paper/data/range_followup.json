@@ -1,0 +1,78 @@
+{
+  "candidates": [
+    {
+      "label": "original",
+      "hmax": "1/1000",
+      "umax": "1/1000",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "label": "h_double",
+      "hmax": "1/500",
+      "umax": "1/1000",
+      "pass": false,
+      "failures": [
+        {
+          "name": "entry_A_lo",
+          "margin": "637361185383092128552047/2560000000000000000000000",
+          "required": "1/4"
+        }
+      ]
+    },
+    {
+      "label": "separate",
+      "hmax": "1/600",
+      "umax": "1/20",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "label": "h_larger",
+      "hmax": "1/200",
+      "umax": "1/20",
+      "pass": false,
+      "failures": [
+        {
+          "name": "entry_A_lo",
+          "margin": "-29072958382180854673/4194304000000000000000",
+          "required": "1/4"
+        }
+      ]
+    },
+    {
+      "label": "u_larger",
+      "hmax": "1/600",
+      "umax": "1/10",
+      "pass": false,
+      "failures": [
+        {
+          "name": "entry_B_lo",
+          "margin": "4247874700905559/8847360000000000",
+          "required": "1"
+        }
+      ]
+    }
+  ],
+  "adverse_face": {
+    "kind": "A lower inner face",
+    "point": {
+      "h": "1/100",
+      "u": "1/20",
+      "Q": "3/4",
+      "A": "7/2",
+      "B": "5/2",
+      "a1": "1",
+      "a2": "1",
+      "a3": "1",
+      "K": "99/25",
+      "b1": "1",
+      "b2": "1",
+      "b3": "1",
+      "b4": "101/100"
+    },
+    "RA": "-55067484288173176806731497/491520000000000000000000000",
+    "negative": true
+  },
+  "elapsed_seconds": 0.2964153999998871
+}

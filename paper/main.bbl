@@ -1,0 +1,233 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson(2008)]{Anderson2008}
+David~F. Anderson.
+\newblock Global asymptotic stability for a class of nonlinear chemical
+  equations.
+\newblock \emph{SIAM Journal on Applied Mathematics}, 68\penalty0 (5):\penalty0
+  1464--1476, 2008.
+
+\bibitem[Anderson(2011)]{Anderson2011}
+David~F. Anderson.
+\newblock A proof of the {G}lobal {A}ttractor {C}onjecture in the single
+  linkage class case.
+\newblock \emph{SIAM Journal on Applied Mathematics}, 71\penalty0 (4):\penalty0
+  1487--1508, 2011.
+
+\bibitem[Anderson and Kurtz(2015)]{AndersonKurtz2015}
+David~F. Anderson and Thomas~G. Kurtz.
+\newblock \emph{Stochastic Analysis of Biochemical Systems}, volume 1.2 of
+  \emph{Mathematical Biosciences Institute Lecture Series}.
+\newblock Springer, Cham, 2015.
+
+\bibitem[Anderson and Shiu(2010)]{AndersonShiu2010}
+David~F. Anderson and Anne Shiu.
+\newblock The dynamics of weakly reversible population processes near facets.
+\newblock \emph{SIAM Journal on Applied Mathematics}, 70\penalty0 (6):\penalty0
+  1840--1858, 2010.
+
+\bibitem[Anderson et~al.(2019)Anderson, Cappelletti, and
+  Kim]{AndersonCappellettiKim2019}
+David~F. Anderson, Daniele Cappelletti, and Jinsu Kim.
+\newblock Stochastically modeled weakly reversible reaction networks with a
+  single linkage class.
+\newblock \href{https://arxiv.org/abs/1904.08967}{arXiv:1904.08967}, 2019.
+
+\bibitem[Angeli et~al.(2007)Angeli, De~Leenheer, and
+  Sontag]{AngeliDeLeenheerSontag2007}
+David Angeli, Patrick De~Leenheer, and Eduardo~D. Sontag.
+\newblock A {P}etri net approach to the study of persistence in chemical
+  reaction networks.
+\newblock \emph{Mathematical Biosciences}, 210\penalty0 (2):\penalty0 598--618,
+  2007.
+
+\bibitem[Boros and Hofbauer(2020)]{BorosHofbauer2020}
+Bal\'azs Boros and Josef Hofbauer.
+\newblock Permanence of weakly reversible mass-action systems with a single
+  linkage class.
+\newblock \emph{SIAM Journal on Applied Dynamical Systems}, 19\penalty0
+  (1):\penalty0 352--365, 2020.
+
+\bibitem[{Bureau International des Poids et Mesures}(2019)]{BIPM2019}
+{Bureau International des Poids et Mesures}.
+\newblock The international system of units ({SI}).
+\newblock SI Brochure, \url{https://www.bipm.org/en/publications/si-brochure},
+  2019.
+
+\bibitem[Craciun(2015)]{Craciun2015}
+Gheorghe Craciun.
+\newblock Toric differential inclusions and a proof of the global attractor
+  conjecture.
+\newblock \href{https://arxiv.org/abs/1501.02860}{arXiv:1501.02860}, 2015.
+
+\bibitem[Craciun and Deshpande(2020)]{CraciunDeshpande2020}
+Gheorghe Craciun and Abhishek Deshpande.
+\newblock Endotactic networks and toric differential inclusions.
+\newblock \emph{SIAM Journal on Applied Dynamical Systems}, 19\penalty0
+  (3):\penalty0 1798--1822, 2020.
+
+\bibitem[Craciun et~al.(2013)Craciun, Nazarov, and
+  Pantea]{CraciunNazarovPantea2013}
+Gheorghe Craciun, Fedor Nazarov, and Casian Pantea.
+\newblock Persistence and permanence of mass-action and power-law dynamical
+  systems.
+\newblock \emph{SIAM Journal on Applied Mathematics}, 73\penalty0 (1):\penalty0
+  305--329, 2013.
+
+\bibitem[de~Moura and Ullrich(2021)]{Lean4}
+Leonardo de~Moura and Sebastian Ullrich.
+\newblock The {L}ean 4 theorem prover and programming language.
+\newblock In \emph{Automated Deduction -- CADE 28}, volume 12699 of
+  \emph{Lecture Notes in Computer Science}, pages 625--635. Springer, 2021.
+
+\bibitem[Desoeuvres et~al.(2024)Desoeuvres, Iosif, L\"uders, Radulescu,
+  Rahkooy, Sei{\ss}, and Sturm]{Desoeuvres2024}
+Aur\'elien Desoeuvres, Alexandru Iosif, Christoph L\"uders, Ovidiu Radulescu,
+  Hamid Rahkooy, Matthias Sei{\ss}, and Thomas Sturm.
+\newblock Reduction of chemical reaction networks with approximate conservation
+  laws.
+\newblock \emph{SIAM Journal on Applied Dynamical Systems}, 23\penalty0 (1),
+  2024.
+\newblock \href{https://doi.org/10.1137/22M1543963}{doi:10.1137/22M1543963};
+  \href{https://arxiv.org/abs/2212.13474}{arXiv:2212.13474}.
+
+\bibitem[Feinberg(1972)]{Feinberg1972}
+Martin Feinberg.
+\newblock Complex balancing in general kinetic systems.
+\newblock \emph{Archive for Rational Mechanics and Analysis}, 49:\penalty0
+  187--194, 1972.
+
+\bibitem[Feinberg(2019)]{Feinberg2019}
+Martin Feinberg.
+\newblock \emph{Foundations of Chemical Reaction Network Theory}, volume 202 of
+  \emph{Applied Mathematical Sciences}.
+\newblock Springer, Cham, 2019.
+
+\bibitem[Fenichel(1979)]{Fenichel1979}
+Neil Fenichel.
+\newblock Geometric singular perturbation theory for ordinary differential
+  equations.
+\newblock \emph{Journal of Differential Equations}, 31\penalty0 (1):\penalty0
+  53--98, 1979.
+
+\bibitem[Gillespie(1977)]{Gillespie1977}
+Daniel~T. Gillespie.
+\newblock Exact stochastic simulation of coupled chemical reactions.
+\newblock \emph{The Journal of Physical Chemistry}, 81\penalty0 (25):\penalty0
+  2340--2361, 1977.
+
+\bibitem[Gopalkrishnan et~al.(2014)Gopalkrishnan, Miller, and
+  Shiu]{GopalkrishnanMillerShiu2014}
+Manoj Gopalkrishnan, Ezra Miller, and Anne Shiu.
+\newblock A geometric approach to the {G}lobal {A}ttractor {C}onjecture.
+\newblock \emph{SIAM Journal on Applied Dynamical Systems}, 13\penalty0
+  (2):\penalty0 758--797, 2014.
+
+\bibitem[Hairer and Wanner(1996)]{HairerWanner1996}
+Ernst Hairer and Gerhard Wanner.
+\newblock \emph{Solving Ordinary Differential Equations {II}: Stiff and
+  Differential-Algebraic Problems}, volume~14 of \emph{Springer Series in
+  Computational Mathematics}.
+\newblock Springer, Berlin, 2nd edition, 1996.
+
+\bibitem[Horn(1974)]{Horn1974}
+F.~Horn.
+\newblock The dynamics of open reaction systems.
+\newblock In \emph{Mathematical Aspects of Chemical and Biochemical Problems
+  and Quantum Chemistry}, volume~8 of \emph{SIAM--AMS Proceedings}, pages
+  125--137. 1974.
+
+\bibitem[Horn and Jackson(1972)]{HornJackson1972}
+F.~Horn and R.~Jackson.
+\newblock General mass action kinetics.
+\newblock \emph{Archive for Rational Mechanics and Analysis}, 47:\penalty0
+  81--116, 1972.
+
+\bibitem[Johnston et~al.(2016)Johnston, Pantea, and
+  Donnell]{JohnstonPanteaDonnell2016}
+Matthew~D. Johnston, Casian Pantea, and Pete Donnell.
+\newblock A computational approach to persistence, permanence, and
+  endotacticity of biochemical reaction systems.
+\newblock \emph{Journal of Mathematical Biology}, 72\penalty0 (1--2):\penalty0
+  467--498, 2016.
+
+\bibitem[Kurtz(1972)]{Kurtz1972}
+Thomas~G. Kurtz.
+\newblock The relationship between stochastic and deterministic models for
+  chemical reactions.
+\newblock \emph{The Journal of Chemical Physics}, 57\penalty0 (7):\penalty0
+  2976--2978, 1972.
+
+\bibitem[Moore et~al.(2009)Moore, Kearfott, and Cloud]{MooreKearfottCloud2009}
+Ramon~E. Moore, R.~Baker Kearfott, and Michael~J. Cloud.
+\newblock \emph{Introduction to Interval Analysis}.
+\newblock SIAM, Philadelphia, 2009.
+
+\bibitem[{OpenAI}(2026{\natexlab{a}})]{OpenAI2026Boundedness}
+{OpenAI}.
+\newblock Boundedness and persistence of weakly reversible mass-action systems.
+\newblock OpenAI Math Release preprint, September 25, 2026. Pinned Lean sources
+  (commit \texttt{adc7f124}):
+  \url{https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/MassAction},
+  2026{\natexlab{a}}.
+
+\bibitem[{OpenAI}(2026{\natexlab{b}})]{OpenAI2026Formal}
+{OpenAI}.
+\newblock Mass-action formalization and scope documentation.
+\newblock Lean sources \texttt{lean/OAI/Analysis/MassAction/} and scope note
+  \texttt{lean/docs/149.md}, pinned at commit
+  \texttt{adc7f1241b42e322a6451854ab7e4b4c146bf78a}:
+  \url{https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/149.md},
+  2026{\natexlab{b}}.
+
+\bibitem[{OpenAI}(2026{\natexlab{c}})]{OpenAI2026Uniform}
+{OpenAI}.
+\newblock Uniform permanence in weakly reversible mass-action systems.
+\newblock OpenAI Math Release preprint, October 5, 2026. Pinned source (commit
+  \texttt{adc7f124}):
+  \url{https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Uniform-Permanence-in-Weakly-Reversible-Mass-Action-Systems-October-5-2026},
+  2026{\natexlab{c}}.
+
+\bibitem[Pantea(2012)]{Pantea2012}
+Casian Pantea.
+\newblock On the persistence and global stability of mass-action systems.
+\newblock \emph{SIAM Journal on Mathematical Analysis}, 44\penalty0
+  (3):\penalty0 1636--1673, 2012.
+
+\bibitem[Schnakenberg(1976)]{Schnakenberg1976}
+J.~Schnakenberg.
+\newblock Network theory of microscopic and macroscopic behavior of master
+  equation systems.
+\newblock \emph{Reviews of Modern Physics}, 48\penalty0 (4):\penalty0 571--585,
+  1976.
+
+\bibitem[Siegel and MacLean(2000)]{SiegelMacLean2000}
+David Siegel and Debbie MacLean.
+\newblock Global stability of complex balanced mechanisms.
+\newblock \emph{Journal of Mathematical Chemistry}, 27:\penalty0 89--110, 2000.
+
+\bibitem[Sontag(2001)]{Sontag2001}
+Eduardo~D. Sontag.
+\newblock Structure and stability of certain chemical networks and applications
+  to the kinetic proofreading model of {T}-cell receptor signal transduction.
+\newblock \emph{IEEE Transactions on Automatic Control}, 46\penalty0
+  (7):\penalty0 1028--1047, 2001.
+
+\bibitem[{The mathlib Community}(2020)]{Mathlib2020}
+{The mathlib Community}.
+\newblock The {L}ean mathematical library.
+\newblock In \emph{Proceedings of the 9th ACM SIGPLAN International Conference
+  on Certified Programs and Proofs (CPP 2020)}, pages 367--381. ACM, 2020.
+
+\bibitem[Tucker(2011)]{Tucker2011}
+Warwick Tucker.
+\newblock \emph{Validated Numerics: A Short Introduction to Rigorous
+  Computations}.
+\newblock Princeton University Press, Princeton, 2011.
+
+\end{thebibliography}

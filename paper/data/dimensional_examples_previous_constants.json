@@ -1,0 +1,194 @@
+{
+  "C0_mol_per_litre": 1,
+  "tau0_seconds": 1,
+  "volume_litres": 1,
+  "Avogadro_per_mole": 6.02214076e+23,
+  "cases": {
+    "original_reference": {
+      "h": "1/1000",
+      "u": "1/1000000000000000",
+      "p": "1/1000000000000000000",
+      "epsilon": 1e-36,
+      "pair3_reverse": 1e-36,
+      "bounds_mol_per_litre": {
+        "x": [
+          4.6875e-29,
+          5e-27
+        ],
+        "y": [
+          6.25e-26,
+          3e-24
+        ],
+        "z": [
+          1.25e-22,
+          1e-21
+        ]
+      },
+      "molecule_counts": {
+        "x": [
+          2.82287848125e-05,
+          0.00301107038
+        ],
+        "y": [
+          0.03763837975,
+          1.8066422279999999
+        ],
+        "z": [
+          75.2767595,
+          602.214076
+        ]
+      },
+      "old_time_seconds": [
+        4.99001996007984e+53,
+        4.6e+58
+      ],
+      "improved_time_seconds": [
+        3.5714285714285713e+55,
+        7e+57
+      ],
+      "rate_units": [
+        "L^2 mol^-2 s^-1 for every cubic forward rate",
+        "L mol^-1 s^-1 for reverse pairs 1,2,3",
+        "s^-1 for reverse pair 4"
+      ],
+      "forward_rate_constants": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "reverse_rate_constants": [
+        1e-36,
+        1e-36,
+        1e-36,
+        1e-36
+      ],
+      "log_cycle_ratio": 81.50676898666575,
+      "classification": "certified parameter values; dimensional illustration, not an experimentally validated mechanism"
+    },
+    "improved_reference": {
+      "h": "1/600",
+      "u": "1/77760000000000",
+      "p": "1/46656000000000000",
+      "epsilon": 4.593936579977834e-34,
+      "pair3_reverse": 4.593936579977834e-34,
+      "bounds_mol_per_litre": {
+        "x": [
+          4.651360787227557e-27,
+          4.961451506376061e-25
+        ],
+        "y": [
+          3.721088629782045e-24,
+          1.7861225422953819e-22
+        ],
+        "z": [
+          4.465306355738454e-21,
+          3.5722450845907633e-20
+        ]
+      },
+      "molecule_counts": {
+        "x": [
+          0.0028011149386228756,
+          0.29878559345310673
+        ],
+        "y": [
+          2.2408919508983005,
+          107.56281364311843
+        ],
+        "z": [
+          2689.0703410779606,
+          21512.562728623685
+        ]
+      },
+      "old_time_seconds": [
+        3.040717265521437e+49,
+        2.8030548040482817e+54
+      ],
+      "improved_time_seconds": [
+        2.1762847857517714e+51,
+        4.265518180073472e+53
+      ],
+      "rate_units": [
+        "L^2 mol^-2 s^-1 for every cubic forward rate",
+        "L mol^-1 s^-1 for reverse pairs 1,2,3",
+        "s^-1 for reverse pair 4"
+      ],
+      "forward_rate_constants": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "reverse_rate_constants": [
+        4.593936579977834e-34,
+        4.593936579977834e-34,
+        4.593936579977834e-34,
+        4.593936579977834e-34
+      ],
+      "log_cycle_ratio": 75.37686150147387,
+      "classification": "certified parameter values; dimensional illustration, not an experimentally validated mechanism"
+    },
+    "improved_rectangle": {
+      "h": "1/600",
+      "u": "1/20",
+      "p": "1/12000",
+      "epsilon": 6.944444444444444e-09,
+      "pair3_reverse": 1.786122542295382e-21,
+      "bounds_mol_per_litre": {
+        "x": [
+          1.808449074074074e-14,
+          1.9290123456790123e-12
+        ],
+        "y": [
+          1.4467592592592592e-11,
+          6.944444444444445e-10
+        ],
+        "z": [
+          1.736111111111111e-08,
+          1.3888888888888888e-07
+        ]
+      },
+      "molecule_counts": {
+        "x": [
+          10890734881.36574,
+          1161678387345.679
+        ],
+        "y": [
+          8712587905092.592,
+          418204219444444.44
+        ],
+        "z": [
+          1.045510548611111e+16,
+          8.364084388888888e+16
+        ]
+      },
+      "old_time_seconds": [
+        2.0115161676646708e+24,
+        1.854296064e+29
+      ],
+      "improved_time_seconds": [
+        1.4396708571428572e+26,
+        2.82175488e+28
+      ],
+      "rate_units": [
+        "L^2 mol^-2 s^-1 for every cubic forward rate",
+        "L mol^-1 s^-1 for reverse pairs 1,2,3",
+        "s^-1 for reverse pair 4"
+      ],
+      "forward_rate_constants": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "reverse_rate_constants": [
+        6.944444444444444e-09,
+        6.944444444444444e-09,
+        1.786122542295382e-21,
+        6.944444444444444e-09
+      ],
+      "log_cycle_ratio": 17.399029496420383,
+      "classification": "certified parameter values; dimensional illustration, not an experimentally validated mechanism"
+    }
+  }
+}

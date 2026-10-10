@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "nfev": 712,
+  "njev": 15,
+  "seconds": 0.05395969999995032,
+  "h": "1/600",
+  "u": "1/20",
+  "full_literal_ODE": true,
+  "slow_time": "tau=p^2*h^7*t",
+  "role": "numerical illustration only",
+  "observed_sampled_capture_slow_time": 0.35796174863387975,
+  "certified_deadline_slow_time": 7,
+  "certified_witness_lower_slow_time": 0.03571428571428571,
+  "one_slow_unit_seconds": 4.0310783999999987e+27
+}
